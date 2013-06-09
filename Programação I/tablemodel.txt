@@ -1,0 +1,3 @@
+Lindomar;19;M;null;Rua 13;32962645;452622;1500.0;Programador;false;false;;false;false;null;Qualquer uma
+Itamar;20;M;null;a;0;2;1500.0;Programador;true;true;;true;true;PostgreSQL;aahga
+a;19;M;Solteiro(a);rua;32323232;1;500.0;programador;true;true;;false;false;FireBird;shdgds

@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.estudos.tarefa"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher" 
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="TabHostTarefas"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+  			      
+        <activity android:name="ListaTarefaActivity"></activity>
+        <activity android:name="CadastroTarefaActivity"></activity>
+        <activity android:name="ListaFavoritosActivity"></activity>
+		<activity android:name="com.estudos.notificacao.NotificacaoTarefaCriada"/>
+		<activity android:name=".EditarTarefa"/>
+		<activity android:name="com.estudos.alarme.TarefaAgendada"/>
+		<activity android:name="AgendaHorarioTarefa"/>
+	
+    	<receiver android:name="com.estudos.broadcast.ReceberAlarme">
+    	    <intent-filter>
+                <action android:name="DISPARAR_ALARME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+    	</receiver>
+    </application> 
+</manifest>

@@ -1,0 +1,4 @@
+<conexao>
+  <driver>org.postgresql.Driver</driver>
+  <url>jdbc:postgresql://localhost:5432/Exemplo</url>
+</conexao>

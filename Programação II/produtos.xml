@@ -1,0 +1,20 @@
+<produtos>
+  <produto>
+    <codigo>1</codigo>
+    <nome>Notebook</nome>
+    <quantidade>10</quantidade>
+    <precoUnitario>1500.0</precoUnitario>
+  </produto>
+  <produto>
+    <codigo>2</codigo>
+    <nome>Televisão</nome>
+    <quantidade>5</quantidade>
+    <precoUnitario>900.0</precoUnitario>
+  </produto>
+  <produto>
+    <codigo>3</codigo>
+    <nome>XBOX 360</nome>
+    <quantidade>2</quantidade>
+    <precoUnitario>899.0</precoUnitario>
+  </produto>
+</produtos>

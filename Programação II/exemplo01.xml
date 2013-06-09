@@ -1,0 +1,16 @@
+<alunos>
+  <aluno>
+    <nome>Lindomar</nome>
+    <idade>19</idade>
+    <nota1>10.0</nota1>
+    <nota2>8.0</nota2>
+    <nota3>9.0</nota3>
+  </aluno>
+  <aluno>
+    <nome>Itamar</nome>
+    <idade>20</idade>
+    <nota4>10.0</nota4>
+    <nota5>8.0</nota5>
+    <nota6>9.8</nota6>
+  </aluno>
+</alunos>

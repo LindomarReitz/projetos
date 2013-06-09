@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gestão de Tarefas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Gestão de Tarefas</string>
+    <string name="txtNomeTarefa">Nome:</string>
+    <string name="txtDescricaoTarefa">Descrição:</string>
+    <string name="hintNomeTarefa">Digite o nome da tarefa</string>
+ 	<string name="hintDescricaoTarefa">Digite a descrição da tarefa</string>
+ 	<string name="hintBuscarTarefa">Buscar tarefa pelo nome</string>
+ 	<string name="labelCadastrar">Cadastrar</string>
+ 	<string name="botaoAlarme">Disparar Alarme</string>
+ 	<string name="botaoEditar">Editar</string>
+ 	<string name="botaoExcluir">Excluir</string>
+ 	<string name="tituloAlertaExclusao">Excluir registro</string>
+ 	<string name="alertaExclusao">Deseja excluir esse registro?</string>
+ 	<string name="alterarHorario">Alterar horário</string>
+ 	<string name="configurarHorario">Configurar horário</string>
+ 	<string name="checkAgendarTarefa">Agendar Tarefa</string>
+ 	<string name="radioOpcao1">Opção 01</string>
+ 	<string name="radioOpcao2">Opção 02</string>
+</resources>

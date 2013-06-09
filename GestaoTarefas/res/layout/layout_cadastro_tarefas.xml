@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNomeTarefa"
+        />
+    
+    <EditText
+        android:id="@+id/nomeTarefa" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="25"
+        android:hint="@string/hintNomeTarefa"
+        />
+        
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtDescricaoTarefa"
+        />
+    
+    <EditText 
+        android:id="@+id/descricaoTarefa"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+		android:maxLength="50"
+		android:lines="5"
+        android:hint="@string/hintDescricaoTarefa"
+        />
+    
+    <Button 
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelCadastrar"
+        />
+</LinearLayout>

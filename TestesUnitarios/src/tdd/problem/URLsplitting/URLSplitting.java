@@ -2,8 +2,8 @@ package tdd.problem.URLsplitting;
 
 public class URLSplitting {
 	private static final String PROTOCOLO_HTTP = "http",
-								PROTOCOLO_HTTPS = "https",
-								PROTOCOLO_FTP = "ftp";
+				    PROTOCOLO_HTTPS = "https",
+				    PROTOCOLO_FTP = "ftp";
 	
 	private String endereco;
 	
@@ -34,7 +34,7 @@ public class URLSplitting {
 		if (!protocolo.startsWith(PROTOCOLO_HTTP) && 
 				!protocolo.startsWith(PROTOCOLO_HTTPS) &&
 				!protocolo.startsWith(PROTOCOLO_FTP)) 
-			throw new ProtocoloURLException("Esse protocolo n„o È permitido!");
+			throw new ProtocoloURLException("Esse protocolo n√£o permitido!");
 		else
 			return protocolo.startsWith(protocolo);
 	}
